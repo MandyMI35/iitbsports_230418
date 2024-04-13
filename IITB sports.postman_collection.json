@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "6181e02c-e94c-444c-bf92-b25ddb2435a9",
+		"name": "IITB sports",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34254058"
+	},
+	"item": [
+		{
+			"name": "fetch all blogs",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "upload blog",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"createdby\":\"userx\",\r\n    \"date\":\"3-april-2024\",\r\n    \"title\":\"xxx\",\r\n    \"body\":\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda veniam officiis molestiae, voluptatibus cupiditate ipsum fugiat animi labore! Iste impedit reprehenderit quisquam maxime corporis! Ipsum, quia atque? Modi ipsum ipsam delectus eligendi iusto velit ut asperiores saepe nemo, cupiditate itaque. Enim sapiente eum deserunt repellendus doloribus corrupti omnis adipisci laboriosam.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/blogs/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete blog",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "edit blog",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "fetch single blog",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
