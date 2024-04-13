@@ -14,4 +14,4 @@ overview of api:
 4) PUT: overrides all the content for the given id (for selective overriding we can use PATCH) by taking id and updating the blog. Returns success message
 5) DELETE : takes id and deletes the entire blog corresponding to it. Returns success message.
 
-In the code, I have used hashmap instead of database as code pushed to github can be tested by anyone as DB connection is not required and it is good for basic demonstrations.
+In the code, I have used hashmap instead of database as code pushed to github can be tested by anyone as database connection is not required and it is good for basic demonstrations.
